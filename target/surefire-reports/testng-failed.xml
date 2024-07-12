@@ -8,46 +8,14 @@
     <parameter name="password" value="ValidPassword"/>
     <parameter name="username" value="ValidUsername"/>
     <classes>
-      <class name="tests.CheckoutTest">
-        <methods>
-          <include name="verifyClickingCheckoutLoadsCheckoutPage"/>
-          <include name="tearDown"/>
-          <include name="verifyRemovingFromCart"/>
-          <include name="verifyReadingItemToCart"/>
-          <include name="selectAShippingCountry"/>
-          <include name="enterPersonalDetails"/>
-          <include name="setup"/>
-          <include name="navigateToCart"/>
-        </methods>
-      </class> <!-- tests.CheckoutTest -->
       <class name="tests.ForumsPageTest">
         <methods>
-          <include name="clickNextPage"/>
           <include name="tearDown"/>
           <include name="verifyForumsHeaderPresent"/>
           <include name="navigateToForumsPage"/>
           <include name="setup"/>
-          <include name="verifyForumSearch"/>
         </methods>
       </class> <!-- tests.ForumsPageTest -->
-      <class name="tests.LoginPageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verifyInvalidLoginCredentials" invocation-numbers="0 1"/>
-          <include name="setup"/>
-          <include name="verifyLogin" invocation-numbers="0"/>
-          <include name="navigateToLoginPage"/>
-        </methods>
-      </class> <!-- tests.LoginPageTest -->
-      <class name="tests.HomePageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="verifyLogo"/>
-          <include name="verifyTitle"/>
-          <include name="setup"/>
-          <include name="verifyHeadsetsDropdown"/>
-        </methods>
-      </class> <!-- tests.HomePageTest -->
     </classes>
   </test> <!-- Smoke Test(failed) -->
 </suite> <!-- Failed suite [Smoke Test Suite] -->
