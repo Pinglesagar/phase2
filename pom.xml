@@ -37,7 +37,7 @@
 		<dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
-    <version>5.3.1</version> <!-- Use the latest version -->
+    <version>5.9.1</version>
 </dependency>
 
 		<!-- SLF4j bridge to prevent slfj error message -->
